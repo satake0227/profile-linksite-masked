@@ -1,0 +1,101 @@
+body{
+    background-image: url(../image/header.png),linear-gradient(180deg, #e7e7e7, #d3d3d3);
+    background-size: auto 150px,cover;
+    background-position: center top,center center;
+    background-repeat: repeat-x,repeat;
+    /* Googleフォント */
+    /* font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: 18px;
+    font-weight: 400px; */
+    color: #5e0a0a;
+}
+img{
+    vertical-align: bottom;
+}
+.header-img{
+    width: 100%;
+    height: auto; 
+    background-image: url('images/header-bg.jpg'); /* 画像のパス */
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+.header-icon{
+    display: flex;
+    margin: 0 auto;
+    width: 149px;
+    background-position: center;
+    margin-top: 75.5px;
+}
+h1{
+    text-align: center;
+    margin-top: 7px;
+
+    /* Googleフォント */
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 900;
+}
+.profile__role{
+    text-align: center;
+    font-size: 18px;
+    /* Googleフォント */
+    font-family: "Noto Sans", sans-serif;
+    margin-bottom: 46px;
+    line-height: 1;
+}
+p{
+    font-size: 16px;
+    line-height: 1.8;
+    text-align: center;
+    text-align: justify;
+    width: 340px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+
+    /* Googleフォント */
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 900;
+}
+.profile{
+    list-style: none;
+    text-align: center;
+    width: 344px;
+    margin: 0 auto;
+    padding: 0;
+    padding-top: 33px;
+}
+.profile-link{
+    border: 1px solid #000000;
+    padding: 15px;
+    margin-bottom: 30px;
+    display: block;
+    text-align: center;
+    background-color: #eceba3;
+    box-shadow: 0px 10px 10px -5px rgba(0, 0, 0, 0.3);
+    border: none;
+
+    /* Googleフォント */
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 900;
+}
+
+h2{
+    text-align: center;
+    font-weight: 900;
+    font-size: 29px;
+}
+.sns-link{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    margin-top: 10px;
+}
+.sns-icon{
+    width: 31px;
+    height: auto;
+}
+.icon-discord{
+    margin-top: 4px;
+    margin-bottom: 29px;
+}
